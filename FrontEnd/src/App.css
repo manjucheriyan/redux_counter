@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  background-color: #520707;
+}
+
+
+.header{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100
+}
+
+
+
+.header__option{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+ 
+}
+.header__optionLineOne{
+  font-size: 15px;
+}
+
+.header__link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+.home__row {  
+  display: flex; 
+  z-index: 1; 
+  margin-left: 5px;  
+  margin-right: 5px;
+}
+h2{
+  color:#f74f0c;margin-top: 3%;font-size: 60px;
+}
+
+.BlogContent{
+  padding:0 10px ;margin-left: 3%;
+}
+.h2,p{
+  color:tomato;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+
+.product__rating {
+  display: flex;
+}
+body {
+  background-color: rgb(204, 217, 243);
+}
+
+
+
+
+.p{
+  color:white;
+  font-size: 20px;
+}
+.h2{
+  color:#f74f0c;margin-top: 10%;font-size: 40px;
+}
+
+.BlogContent{
+  padding:0 10px ;margin-left: 3%;
+}
+.h2,p{
+  color:tomato;
+}
+.StyleBlog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+.Blog__title {
+  display: flex;
+  color: rgb(5, 5, 95);
+}
+.Blog__Details{
+  display: flex;
+  color: rgb(4, 4, 31);
+}
+body {
+    background-color: #520707;
+  }
+  .h1{
+    color:blue
+  }
+  .StyleSelectedBlog__info,SelectedBlog__title,SelectedBlog__Details,SelectedBlog__MoreContent{
+    color:cornsilk
+  }
+  .heading-createABlog{
+    margin-top: 105px;
+    color: cornsilk;
+  }
+  .field_Blogtitle{
+    
+  }
+  .field_Blogdescription{
+    
+  }
+  .MoreBlogContent{
+    
+  }
+  .form-group{
+    color:cyan
+  }
+  .loginLabel_username,.loginLabel_password{
+    color:black
+  }
+  #tableEdit{
+    color:yellow;
+  }
